@@ -1,10 +1,16 @@
 .bg{
-    /* background-image: url('../../assets/Books-and-coffee.jpg'); */
     background-color: #333;
+    height:calc(100vh - 40px);
+  
+}
+.image{
+    background-image: url('../../assets/5.jpg');
     height:calc(100vh - 40px);
     background-size: cover; 
     background-position: center; 
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
+    z-index: -1;
+
 }
 
 .intro{
