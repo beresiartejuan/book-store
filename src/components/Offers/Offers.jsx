@@ -5,6 +5,7 @@ import style from './Offers.module.css'
 export const Offers = () => {
     return (
         <div className= {style.containerOfferts}>
+            <h2 className= {style.title}>Ofertas</h2>
             <section className= {style.Offerts}>
                 <Card />
                 <Card />

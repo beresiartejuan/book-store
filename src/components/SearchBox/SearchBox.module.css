@@ -1,0 +1,12 @@
+.search{
+    background-color: #333333;
+    margin: 0;
+    outline: none;
+    color: #FFFFFF;
+    border: 1px solid #B2B2B2;
+    border-radius: 5px;
+    height: 20px;
+    width: 19rem;
+    font-size: 10px;
+    text-indent: 8px;
+}
