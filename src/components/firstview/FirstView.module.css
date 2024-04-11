@@ -1,0 +1,18 @@
+.intro{
+    color: #f0f0f0;
+    font-size: 1.5rem;
+    padding-top: 4rem;
+    padding-left: 2rem;
+}
+
+.title{
+    font-family: italic;
+    font-size: 3rem;
+    
+}
+
+.bg{
+    background-color: #333;
+    height:calc(100vh - 40px);
+  
+}

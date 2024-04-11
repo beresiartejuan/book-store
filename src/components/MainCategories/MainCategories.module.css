@@ -3,5 +3,32 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F5F5F5;
+    color: #000;
+}
+.containerCategory {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     margin-top: 20px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.listCategory{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+    list-style: none;
+}
+.item{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    cursor: pointer;
 }
