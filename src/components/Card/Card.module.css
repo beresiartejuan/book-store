@@ -46,5 +46,18 @@
     width: 8rem;
 }
 
-
+.buy {
+    background-color: green; 
+    color: white; 
+    padding: 0.3rem; 
+    border: none; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
+    border-radius: 0.5rem;
+  }
+  
+ 
+  .buy:hover {
+    background-color: darkgreen; 
+  }
 
