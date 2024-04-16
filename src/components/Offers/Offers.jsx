@@ -2,15 +2,16 @@ import React from 'react'
 import { Card } from '../Card/Card'
 import style from './Offers.module.css'
 
-export const Offers = () => {
+
+export const Offers = ({books}) => {
+    const Ofertas = books.slice(0,3)
     return (
         <div className= {style.containerOfferts}>
             <h2 className= {style.title}>Ofertas</h2>
             <section className= {style.Offerts}>
-                <Card />
-                <Card />
-                <Card />
-                <Card />
+                {Ofertas?.map((item) => {
+                   return <Card book={item.book}/>
+                })}
             </section>
         </div>
     )

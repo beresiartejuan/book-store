@@ -1,6 +1,8 @@
-let numeros = [1, 2, 3, 4, 5];
+import libros from './books.js' 
 
-numeros.map((numero) => {
-    let resultado = numero * 2;
-    console.log(resultado);
+
+
+
+libros.forEach(item => {
+    console.log(item.book.title);
 });
