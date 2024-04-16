@@ -4,7 +4,7 @@ import style from './Offers.module.css'
 
 
 export const Offers = ({books}) => {
-    const Ofertas = books.slice(0,3)
+    const Ofertas = books.slice(0,4)
     return (
         <div className= {style.containerOfferts}>
             <h2 className= {style.title}>Ofertas</h2>
