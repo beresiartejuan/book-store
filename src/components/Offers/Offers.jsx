@@ -7,7 +7,7 @@ export const Offers = ({books}) => {
     const Ofertas = books.slice(0,4)
     return (
         <div className= {style.containerOfferts}>
-            <h2 className= {style.title}>Ofertas</h2>
+            <h1 className= {style.title}>Ofertas!!!</h1>
             <section className= {style.Offerts}>
                 {Ofertas?.map((item) => {
                    return <Card book={item.book}/>
