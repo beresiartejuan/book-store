@@ -16,12 +16,12 @@ import { Footer } from './components/Footer/Footer'
 
 function App() {
 
-
+//pages que faltan: Contact, buyPAge, DetailBook, AboutUsSection
   return (
     <div className="App">
       <Header />
       <Routes>
-        <Route path="/" element={<Home libros={libros}/>} />
+        <Route path="/" element={<Home libros={libros}/>} /> 
         <Route path="/SearchList" element={<SearchList />} />
         <Route path="/DetailBook" element={<DetailBook />} />
         <Route path="/AboutUs" element={<AboutUsSection />} />
