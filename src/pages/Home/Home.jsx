@@ -3,9 +3,9 @@ import { Offers } from '../../components/Offers/Offers'
 import { BestSellers } from '../../components/BestSellers/BestSellers'
 import { MainCategories } from '../../components/MainCategories/MainCategories'
 import { FirstView } from '../../components/firstview/FirstView'
-import libros from '../../DMockeado/books.js'
 
-export const Home = () => {
+
+export const Home = ({libros}) => {
   return (
     <>
       <FirstView />
