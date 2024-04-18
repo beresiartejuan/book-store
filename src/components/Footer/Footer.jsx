@@ -6,9 +6,9 @@ export const Footer = () => {
         <footer className={styles.foot} >
             <div>
                 <p className={styles.head}>LOGO</p>
-                <p className={styles.item}>direccion</p>
-                <p className={styles.item}>telefono</p>
-                <p className={styles.item}>email</p>
+                <p className={styles.item}>Direccion: 221B Baker Street</p>
+                <p className={styles.item}>Telefono: 111 1111111</p>
+                <p className={styles.item}>email: PaginasYaromas@gmail.com</p>
             </div>
             <div>
                 <p className={styles.head}>Nosotros</p>
@@ -18,9 +18,9 @@ export const Footer = () => {
             <div>
                 <p className={styles.head}>Seguinos en:</p>
                 <ul className={styles.list}>
-                    <li>facebook</li>
-                    <li>instagram</li>
-                    <li>likedin</li>
+                    <li>Facebook</li>
+                    <li>Instagram</li>
+                    <li>Likedin</li>
                 </ul>
             </div>
         </footer>

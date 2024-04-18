@@ -9,7 +9,7 @@ export const AllBooks = ({libros}) => {
       <h1 className={styles.title}>All Books</h1>
       <div className={styles.booksContainer}>
       {libros?.map((item) => {
-                   return <Card key={item.book.title} book={item.book}/>
+                   return <Card key={item.book.id + "AB"}  book={item.book}/>
                 })}
       </div>
     </div>

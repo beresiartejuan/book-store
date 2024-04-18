@@ -22,7 +22,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home libros={libros}/>} /> 
-        <Route path="/SearchList" element={<SearchList />} />
+        <Route path="/SearchList/:book" element={<SearchList />} />
         <Route path="/DetailBook" element={<DetailBook />} />
         <Route path="/AboutUs" element={<AboutUsSection />} />
         <Route path="/AllBooks" element={<AllBooks libros={libros}/>} />

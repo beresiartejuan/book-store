@@ -1,7 +1,13 @@
 import React from 'react'
 
 export const DetailBook = () => {
+
   return (
-    <div>DetailBook</div>
+    <div>
+      <div>
+        <h2>{book}</h2>
+      </div>
+      DetailBook
+    </div>
   )
 }

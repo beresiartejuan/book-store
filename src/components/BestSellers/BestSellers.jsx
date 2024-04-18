@@ -9,7 +9,7 @@ export const BestSellers = ({books}) => {
             <h1 className={styles.title}>Best Sellers  </h1>
             <section className={styles.BestSellers}>
                 {bestSellers?.map((item) => {
-                    return <Card book={item.book}/>
+                    return <Card key={item.book.id + "BS"} book={item.book}/>
                 })}
                
             </section>
