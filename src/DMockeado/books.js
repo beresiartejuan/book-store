@@ -1,3 +1,26 @@
+/**
+Tipo de dato
+
+type Autor = {
+    name: string;
+    otherBooks: string[];
+}
+
+type Libro = {
+    id: string;
+    title: string;
+    pages: number;
+    genre: string;
+    cover: string;
+    synopsis: string;
+    year: number;
+    ISBN: string;
+    price: number;
+    author: Autor;
+}
+
+ */
+
 const libros = [
     {
         "book": {

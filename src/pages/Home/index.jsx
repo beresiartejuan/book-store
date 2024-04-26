@@ -4,14 +4,17 @@ import { BestSellers } from '../../components/BestSellers/BestSellers'
 import { MainCategories } from '../../components/MainCategories/MainCategories'
 import { FirstView } from '../../components/firstview/FirstView'
 
+import './Home.module.scss';
 
-export const Home = ({libros}) => {
+export default function Home() {
+
   return (
     <>
       <FirstView />
-      <Offers books={libros}/>
+      <Offers books={libros} />
       <BestSellers books={libros} />
       <MainCategories />
     </>
   )
+
 }
