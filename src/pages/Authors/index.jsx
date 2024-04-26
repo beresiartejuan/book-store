@@ -1,7 +1,6 @@
-import React from 'react'
-import styles from './Authors.module.css'
+import './Authors.module.scss'
 
-export const Authors = ({ books }) => {
+export default function Authors({ books }) {
   const authors = books.map((item) => item.book.author);
   console.log(authors);
   return (
@@ -9,12 +8,12 @@ export const Authors = ({ books }) => {
       <h1>Autores</h1>
       <ul className={styles.list}>
         {authors.map((author, index) => (
-          <li className={styles.Authors} key={{index}}>{author.name}</li>
+          <li className={styles.Authors} key={{ index }}>{author.name}</li>
         ))}
       </ul>
-      
+
     </div>
-  
+
   );
 };
 

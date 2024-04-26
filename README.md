@@ -2,6 +2,10 @@
 
 ## Upgrade
 
+## Eliminando la dependencia de react de los componentes
+
+En algunos archivos se importa react en la primera linea, pero en proyectos con Vite no es necesario, por lo que se puede eliminar
+
 ## Implementando Sass 
 
 Sass es compatible al 100% con el codigo css común, por lo que todos los archivos `.css` pasaron a ser `.scss` para tener las ventajas de sass.

@@ -1,6 +1,4 @@
-import React from 'react'
-
-export const DetailBook = () => {
+export default function Detail() {
 
   return (
     <div>
