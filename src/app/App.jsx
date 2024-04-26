@@ -1,4 +1,5 @@
 import { Header } from "../components/Header/Header";
+import { Footer } from '../components/Footer/Footer'
 import RoutesAllowed from "./RoutesAllowed";
 
 export default function App() {
@@ -7,6 +8,7 @@ export default function App() {
         <>
             <Header />
             <RoutesAllowed />
+            <Footer />
         </>
     )
 

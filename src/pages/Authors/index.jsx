@@ -1,6 +1,8 @@
 import './Authors.module.scss'
 
-export default function Authors({ books }) {
+import books from "./../../DMockeado/books";
+
+export default function Authors() {
   const authors = books.map((item) => item.book.author);
   console.log(authors);
   return (

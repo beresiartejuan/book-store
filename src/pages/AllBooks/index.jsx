@@ -1,8 +1,8 @@
 import './AllBooks.module.scss'
 import { Card } from '../../components/Card/Card'
+import libros from "./../../DMockeado/books";
 
-
-export default function AllBooks({ libros }) {
+export default function AllBooks() {
   return (
     <div className='container' >
       <h1 className='title'>All Books</h1>
