@@ -1,0 +1,226 @@
+[
+    {
+        "id": 1,
+        "name": "J.R.R. Tolkien",
+        "books": [
+            {
+                "name": "El Señor de los Anillos",
+                "id": "1"
+            },
+            {
+                "name": "El Hobbit",
+                "id": "17"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "George R. R. Martin",
+        "books": [
+            {
+                "name": "Juego de Tronos",
+                "id": "2"
+            },
+            {
+                "name": "Choque de Reyes",
+                "id": "18"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "J.K. Rowling",
+        "books": [
+            {
+                "name": "Harry Potter y la piedra filosofal",
+                "id": "3"
+            },
+            {
+                "name": "Harry Potter y la cámara secreta",
+                "id": "19"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "George Orwell",
+        "books": [
+            {
+                "name": "1984",
+                "id": "4"
+            },
+            {
+                "name": "Rebelión en la granja",
+                "id": "20"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Manel Loreiro",
+        "books": [
+            {
+                "name": "Apocalipsis Zombie",
+                "id": "5"
+            },
+            {
+                "name": "Los días oscuros",
+                "id": "21"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Frank Herbert",
+        "books": [
+            {
+                "name": "Dune",
+                "id": "6"
+            },
+            {
+                "name": "El Mesías de Dune",
+                "id": "22"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Douglas Adams",
+        "books": [
+            {
+                "name": "La Guía del Autoestopista Galáctico",
+                "id": "7"
+            },
+            {
+                "name": "El Restaurante del Fin del Mundo",
+                "id": "23"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "William Gibson",
+        "books": [
+            {
+                "name": "Neuromante",
+                "id": "8"
+            },
+            {
+                "name": "Conde Cero",
+                "id": "24"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Ray Bradbury",
+        "books": [
+            {
+                "name": "Fahrenheit 451",
+                "id": "9"
+            },
+            {
+                "name": "Crónicas Marcianas",
+                "id": "25"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Stephen King",
+        "books": [
+            {
+                "name": "El resplandor",
+                "id": "10"
+            },
+            {
+                "name": "It",
+                "id": "26"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Bram Stoker",
+        "books": [
+            {
+                "name": "Drácula",
+                "id": "11"
+            },
+            {
+                "name": "La dama del sudario",
+                "id": "27"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Mary Shelley",
+        "books": [
+            {
+                "name": "Frankenstein",
+                "id": "12"
+            },
+            {
+                "name": "El último hombre",
+                "id": "28"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "name": "H.P. Lovecraft",
+        "books": [
+            {
+                "name": "La llamada de Cthulhu",
+                "id": "13"
+            },
+            {
+                "name": "El horror de Dunwich",
+                "id": "29"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "name": "Patrick Rothfuss",
+        "books": [
+            {
+                "name": "El nombre del viento",
+                "id": "14"
+            },
+            {
+                "name": "El temor de un hombre sabio",
+                "id": "30"
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "name": "Neil Gaiman",
+        "books": [
+            {
+                "name": "Los hijos de Anansi",
+                "id": "15"
+            },
+            {
+                "name": "American Gods",
+                "id": "31"
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "name": "Dan Simmons",
+        "books": [
+            {
+                "name": "Hyperion",
+                "id": "16"
+            },
+            {
+                "name": "La caída de Hyperion",
+                "id": "32"
+            }
+        ]
+    }
+]

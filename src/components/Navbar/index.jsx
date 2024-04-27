@@ -1,5 +1,7 @@
 import useChecker from "../../hooks/useChecker";
 import NavbarItems from "./components/NavbarItems";
+import CartIcon from "../../icons/CartIcon";
+import MenuIcon from "../../icons/MenuIcon";
 
 export default function Navbar() {
 
@@ -17,21 +19,7 @@ export default function Navbar() {
                     aria-expanded="false"
                 >
                     <span className="sr-only">Open main menu</span>
-                    <svg
-                        className="w-5 h-5"
-                        aria-hidden="true"
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 17 14"
-                    >
-                        <path
-                            stroke="currentColor"
-                            strokeLinecap="round"
-                            strokeLinejoin="round"
-                            strokeWidth={2}
-                            d="M1 1h15M1 7h15M1 13h15"
-                        />
-                    </svg>
+                    <MenuIcon className="w-5 h-5" />
                 </button>
 
                 <div className="flex px-4 py-2 md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
@@ -39,9 +27,7 @@ export default function Navbar() {
                         type="button"
                         className="flex flex-row gap-2 items-center justify-center self-center text-white focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-4 py-2 bg-blue-600 hover:bg-blue-700 focus:ring-blue-800"
                     >
-                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
-                            <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 10.5V6a3.75 3.75 0 1 0-7.5 0v4.5m11.356-1.993 1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 0 1-1.12-1.243l1.264-12A1.125 1.125 0 0 1 5.513 7.5h12.974c.576 0 1.059.435 1.119 1.007ZM8.625 10.5a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm7.5 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
-                        </svg>
+                        <CartIcon className="w-6 h-6" />
                         <span className=" font-semibold text-[1rem]">0 Libros</span>
                     </button>
                 </div>

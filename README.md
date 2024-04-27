@@ -45,4 +45,17 @@ Para un mejor cuidado y administración de las rutas, estas se encuentran regist
 
 ## Uso de zustand para crear el carrito de compras 🔴
 
-## Uso de los datos para mockear para simular una API 🔴
+## Uso de los datos para mockear para simular una API 🟢
+
+- `/`: Pagina principal
+- `/books`: Lista de libros
+- `/books/?q=`: Busqueda por titulo
+- `/authors`: Lista de autores
+- `/authors/?q=`: Busqueda por autor
+- `/books/{id}`: Detalles al libro asociado con el id
+- `/authors/{id}`: Detalles al autor asociado con el id
+
+[Api Mockeada :v]
+
+- `/api/books`: Lista de libros en formato JSON
+- `/api/authors`: Lista de libros en formato JSON
