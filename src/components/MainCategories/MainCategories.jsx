@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './MainCategories.module.css'
-import { Link } from 'react-router-dom'
+import { Link } from "wouter";
 
 export const MainCategories = () => {
     const categories = [
@@ -15,7 +15,7 @@ export const MainCategories = () => {
                 <ul className={styles.listCategory}>
                     {categories[0].map(category => (
                         <li className={styles.item} key={category}>
-                            <Link to='/SearchList' className={styles.menuItem}>
+                            <Link href='/search' className={styles.menuItem}>
                                 {category}
                             </Link>
                         </li>
@@ -24,7 +24,7 @@ export const MainCategories = () => {
                 <ul className={styles.listCategory}>
                     {categories[1].map(category => (
                         <li className={styles.item} key={category}>
-                            <Link to='/SearchList' className={styles.menuItem}>
+                            <Link href='/search' className={styles.menuItem}>
                                 {category}
                             </Link>
                         </li>

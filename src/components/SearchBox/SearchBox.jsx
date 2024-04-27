@@ -1,15 +1,17 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+
+import { useLocation } from "wouter";
+
 import styles from './SearchBox.module.css';
 
 export const SearchBox = () => {
   const [search, setSearch] = useState('');
-  const navigate = useNavigate();
+  const [location, setLocation] = useLocation();
 
   const handleKeyDown = (e) => {
     if (e.key === 'Enter') {
       e.preventDefault();
-      navigate(`/SearchList/${search}`);
+      setLocation(`/SearchList/${search}`)
       setSearch('');
     }
   };

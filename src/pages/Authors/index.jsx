@@ -6,11 +6,11 @@ export default function Authors() {
   const authors = books.map((item) => item.book.author);
   console.log(authors);
   return (
-    <div className={styles.container}>
+    <div className='container'>
       <h1>Autores</h1>
-      <ul className={styles.list}>
+      <ul className='list'>
         {authors.map((author, index) => (
-          <li className={styles.Authors} key={{ index }}>{author.name}</li>
+          <li className={'Author'} key={{ index }}>{author.name}</li>
         ))}
       </ul>
 

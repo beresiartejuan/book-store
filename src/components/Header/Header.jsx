@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './Header.module.css'
 import { SearchBox } from '../SearchBox/SearchBox'
-import { Link } from 'react-router-dom'
+import { Link } from 'wouter'
 
 
 export const Header = () => {

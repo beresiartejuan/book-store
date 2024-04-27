@@ -1,12 +1,12 @@
-import { Header } from "../components/Header/Header";
 import { Footer } from '../components/Footer/Footer'
 import RoutesAllowed from "./RoutesAllowed";
+import Navbar from "../components/Navbar";
 
 export default function App() {
 
     return (
         <>
-            <Header />
+            <Navbar></Navbar>
             <RoutesAllowed />
             <Footer />
         </>
