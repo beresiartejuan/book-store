@@ -47,15 +47,15 @@ Para un mejor cuidado y administración de las rutas, estas se encuentran regist
 
 ## Uso de los datos para mockear para simular una API 🟢
 
-- `/`: Pagina principal
-- `/books`: Lista de libros
-- `/books/?q=`: Busqueda por titulo
-- `/authors`: Lista de autores
-- `/authors/?q=`: Busqueda por autor
-- `/books/{id}`: Detalles al libro asociado con el id
-- `/authors/{id}`: Detalles al autor asociado con el id
+- `/`: Pagina principal [Funciona]
+- `/books`: Lista de libros [Funciona]
+- `/books/?q=`: Busqueda por titulo [No funciona]
+- `/authors`: Lista de autores [Funciona]
+- `/authors/?q=`: Busqueda por autor [No funciona]
+- `/books/{id}`: Detalles al libro asociado con el id [No funciona]
+- `/authors/{id}`: Detalles al autor asociado con el id [No funciona]
 
 [Api Mockeada :v]
 
-- `/api/books`: Lista de libros en formato JSON
-- `/api/authors`: Lista de libros en formato JSON
+- `/api/books.json`: Lista de libros en formato JSON
+- `/api/authors.json`: Lista de libros en formato JSON
