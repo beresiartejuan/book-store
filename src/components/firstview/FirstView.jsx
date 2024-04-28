@@ -1,13 +1,10 @@
-import React from 'react'
-import styles from './FirstView.module.css'
+import styles from './FirstView.module.scss';
 
 export const FirstView = () => {
   return (
-    <div className= {styles.bg}>
-        <article className={styles.intro} >
-          <span className={styles.title} >Bienvenido a   Paginas y aromas</span>
-          <p>El lugar donde el aroma del café se entrelaza con las historias impresas.</p>
-        </article>
-      </div>
+    <header className={styles['first-view']}>
+      <h1>Paginas y Aromas</h1>
+      <span>El lugar donde el aroma del café se entrelaza con las historias impresas.</span>
+    </header>
   )
 }

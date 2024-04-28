@@ -1,4 +1,5 @@
 import { Switch, Route } from "wouter";
+import { v4 as uuid } from "uuid";
 
 import Home from './../pages/Home'
 import SearchList from './../pages/SearchList'
@@ -49,7 +50,7 @@ export default function RoutesAllowed() {
     return (
         <Switch>
             {routes_allowed.map(route => (
-                <Route path={route.path} component={route.component}></Route>
+                <Route key={uuid()} path={route.path} component={route.component}></Route>
             ))}
         </Switch>
     )
