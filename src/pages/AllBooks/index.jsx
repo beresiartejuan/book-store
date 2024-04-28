@@ -1,12 +1,12 @@
 import './AllBooks.module.scss'
 import { Card } from '../../components/Card/Card'
 import useBook from '../../hooks/useBook';
-import useFecht from '../../hooks/useFecht';
+import useFetch from '../../hooks/useFetch';
 
 export default function AllBooks() {
 
   const { getAllBooks } = useBook();
-  const books = useFecht(getAllBooks);
+  const books = useFetch(getAllBooks);
 
   return (
     <div className='container' >

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-export default function useFecht(instance) {
+export default function useFetch(instance) {
 
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(false);
