@@ -230,58 +230,5 @@
                 "En las montañas de la locura"
             ]
         }
-    },
-    {
-        "id": "14",
-        "title": "El nombre del viento",
-        "pages": 662,
-        "genre": "Fantasía",
-        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1476284759i/186074.jpg",
-        "synopsis": "La historia de Kvothe, un héroe polifacético, contada por él mismo a lo largo de tres días.",
-        "year": 2007,
-        "ISBN": "978-0756404079",
-        "price": 18,
-        "author": {
-            "name": "Patrick Rothfuss",
-            "otherBooks": [
-                "El temor de un hombre sabio"
-            ]
-        }
-    },
-    {
-        "id": "15",
-        "title": "Los hijos de Anansi",
-        "pages": 384,
-        "genre": "Fantasía",
-        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1336418837i/2744.jpg",
-        "synopsis": "Cuando el solitario Charles Nancy descubre que su recién fallecido padre era un dios, su vida da un vuelco dramático.",
-        "year": 2005,
-        "ISBN": "978-0060515195",
-        "price": 16,
-        "author": {
-            "name": "Neil Gaiman",
-            "otherBooks": [
-                "American Gods",
-                "Coraline"
-            ]
-        }
-    },
-    {
-        "id": "16",
-        "title": "Hyperion",
-        "pages": 482,
-        "genre": "Ciencia ficción",
-        "cover": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1405546834i/77566.jpg",
-        "synopsis": "Siete peregrinos comparten sus historias mientras viajan a los lejanos confines del espacio, hacia el planeta Hyperion.",
-        "year": 1989,
-        "ISBN": "978-0553283686",
-        "price": 14,
-        "author": {
-            "name": "Dan Simmons",
-            "otherBooks": [
-                "La caída de Hyperion",
-                "Endymion"
-            ]
-        }
     }
 ]
