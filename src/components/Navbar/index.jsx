@@ -8,7 +8,7 @@ export default function Navbar() {
     const [is_open, openOrClose] = useChecker();
 
     return (
-        <nav className="bg-gray-900 fixed w-full z-20 top-0 start-0 border-b border-gray-600">
+        <nav className="bg-gray-950 fixed w-full z-20 top-0 start-0 border-b border-gray-600">
             <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto">
                 <button
                     data-collapse-toggle="navbar-sticky"
