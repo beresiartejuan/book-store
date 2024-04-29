@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from './Header.module.css'
 import { SearchBox } from '../SearchBox/SearchBox'
 import { Link } from 'wouter'

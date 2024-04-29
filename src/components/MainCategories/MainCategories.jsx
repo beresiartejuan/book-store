@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from './MainCategories.module.css'
 import { Link } from "wouter";
 
