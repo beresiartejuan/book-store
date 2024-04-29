@@ -3,6 +3,9 @@ import NavbarItems from "./components/NavbarItems";
 import CartIcon from "../../icons/CartIcon";
 import MenuIcon from "../../icons/MenuIcon";
 
+import { Link } from "react-router-dom";
+import { SearchBox } from "../SearchBox/SearchBox";
+
 export default function Navbar() {
 
     const [is_open, openOrClose] = useChecker();
@@ -23,13 +26,14 @@ export default function Navbar() {
                 </button>
 
                 <div className="flex px-4 py-2 md:order-2 space-x-3 md:space-x-0 rtl:space-x-reverse">
-                    <button
-                        type="button"
+                    <Link
+                        to='/buy'
                         className="flex flex-row gap-2 items-center justify-center self-center text-white focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-4 py-2 bg-blue-600 hover:bg-blue-700 focus:ring-blue-800"
                     >
                         <CartIcon className="w-6 h-6" />
                         <span className=" font-semibold text-[1rem]">0 Libros</span>
-                    </button>
+                    </Link>
+                    <SearchBox></SearchBox>
                 </div>
                 <div
                     className={`${is_open ? "" : "hidden"} items-center justify-between w-full md:flex md:w-auto md:order-1`}

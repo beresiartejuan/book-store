@@ -1,6 +1,7 @@
-.container{
+.container {
     height: auto;
-    min-height: calc(100vh - 40px);
+    min-height: 40vh;
+    padding: 10vh 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -9,7 +10,7 @@
     align-items: center;
 }
 
-.booksContainer{
+.booksContainer {
     width: 80%;
     display: flex;
     flex-wrap: wrap;
@@ -18,7 +19,7 @@
     padding-bottom: 20px;
 }
 
-.title{
+.title {
     font-size: 2rem;
     font-weight: 700;
     margin: 20px 0;

@@ -1,5 +1,4 @@
-import { Switch, Route } from "wouter";
-import { v4 as uuid } from "uuid";
+import { Route, Routes } from "react-router-dom";
 
 import Home from './../pages/Home'
 import SearchList from './../pages/SearchList'
@@ -10,49 +9,19 @@ import Authors from './../pages/Authors'
 import BuyPage from './../pages/BuyPage'
 import Contact from './../pages/Contact'
 
-const routes_allowed = [
-    {
-        component: Home,
-        path: '/'
-    },
-    {
-        component: SearchList,
-        path: '/search'
-    },
-    {
-        component: DetailBook,
-        path: '/detail'
-    },
-    {
-        component: AboutUsSection,
-        path: '/about-us'
-    },
-    {
-        component: AllBooks,
-        path: '/books'
-    },
-    {
-        component: Authors,
-        path: '/authors'
-    },
-    {
-        component: BuyPage,
-        path: '/buy'
-    },
-    {
-        component: Contact,
-        path: '/contact'
-    }
-];
-
 export default function RoutesAllowed() {
 
     return (
-        <Switch>
-            {routes_allowed.map(route => (
-                <Route key={uuid()} path={route.path} component={route.component}></Route>
-            ))}
-        </Switch>
+        <Routes>
+            <Route path='/' element={<Home />}></Route>
+            <Route path='/search' element={<SearchList />}></Route>
+            <Route path='/books/:id' element={<DetailBook />}></Route>
+            <Route path='/about-use' element={<AboutUsSection />}></Route>
+            <Route path='/books' element={<AllBooks />}></Route>
+            <Route path='/authors' element={<Authors />}></Route>
+            <Route path='/buy' element={<BuyPage />}></Route>
+            <Route path='/contact' element={<Contact />}></Route>
+        </Routes>
     )
 
 }
